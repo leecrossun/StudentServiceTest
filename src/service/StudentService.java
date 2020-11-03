@@ -5,7 +5,8 @@ import java.util.List;
 import service.dto.StudentDTO;
 
 
-public interface StudentService {				// 학생정보를 관리 목적의 인터페이스
+// Git test hyeonseo
+public interface StudentService {					// 학생정보를 관리 목적의 인터페이스
 	public List<StudentDTO> ListingStudents();		// 전체 학생정보를 List 형태로 반환
 	public StudentDTO getStudent(String name);		// 성명에 해당하는 학생 정보를 반환
 	public int insertStudent(StudentDTO stu);		// 학생정보를 추가
